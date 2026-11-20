@@ -25,3 +25,4 @@ let mySprite = sprites.create(img`
     ................bbbbbbbbbbbbbbbbb................
     `, SpriteKind.Player)
 mySprite.sayText("yo")
+music.play(music.stringPlayable("- - - - - - - - ", 120), music.PlaybackMode.UntilDone)
